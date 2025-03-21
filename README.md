@@ -14,16 +14,14 @@ This utility retrieves City Name, State, latitude, longitude, Country, Zip Code 
 ## Running Instruction
 1. In command prompt run using the following command
    ```bash
-   python .\openweathergeocoding.py "San Jose, CA", "95148, "95050", "94087"
-
-   Output looks like the following:
-   
-   Name: San Jose, State: California, Latitude: 37.3361663, Longitude: -121.890591
-   Name: Santa Clara, State: N/A, Latitude: 37.3492, Longitude: -121.953
-   Name: Sunnyvale, State: N/A, Latitude: 37.3502, Longitude: -122.0349
-
-   Inserting invalid City or Zip Code will return "Location Not Found"
-   
+  python .\openweathergeocoding.py "San Jose, CA", "95050", "94087", "00000", "ABCDEF", " "
+  Name: San Jose, State: California, Latitude: 37.3361663, Longitude: -121.890591
+  Name: Santa Clara, State: N/A, Latitude: 37.3492, Longitude: -121.953
+  Name: Sunnyvale, State: N/A, Latitude: 37.3502, Longitude: -122.0349
+  Location Not Found : 00000
+  Location Not Found : ABCDEF
+  Location Not Found :     
+  
 2. Running a test file
     python .\test_weathergeo_utility_integration.py
 
