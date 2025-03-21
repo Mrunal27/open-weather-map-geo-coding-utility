@@ -1,4 +1,3 @@
-# open-weather-map-geo-coding-utility
 # Open Weather Map Geo Coding Utility
 
 This utility retrieves City Name, State, latitude, longitude, Country, Zip Code information for a given city/state or zip code using the OpenWeather Geocoding API.
