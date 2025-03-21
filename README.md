@@ -26,4 +26,17 @@ This utility retrieves City Name, State, latitude, longitude, Country, Zip Code 
    
 2. Running a test file
     python .\test_weathergeo_utility_integration.py
+
+    Output looks like the following
+    ...STDOUT: Location Not Found : ABCDERFG
+
+    STDERR: 
+   .STDOUT: Location Not Found : #124@@~!
+
+   STDERR: 
+   ..
+   ----------------------------------------------------------------------
+   Ran 6 tests in 2.569s
+
+   OK
    
